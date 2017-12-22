@@ -1,0 +1,24 @@
+
+application:
+  hello: hello Kevin Durant111
+
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://10.5.2.243:3306/springboot?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: test123
+
+custom:
+  datasource:
+    names: ds1
+    ds1: 
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://10.5.2.241:3306/springboot?useUnicode=true&characterEncoding=utf8&useSSL=false
+      username: root
+      password: test123
